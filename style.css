@@ -117,14 +117,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-.incomplete-list__image,
-.completed-list__image {
+.task-list__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.completed-list__image,
-.incomplete-list__image{
+.task-list__image {
   transform: rotateZ(0);
 }
 
