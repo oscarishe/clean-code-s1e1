@@ -23,8 +23,9 @@
   margin-bottom:16px;
 }
 @media (max-width:768px) {
-.matrix { text-align: center;
-}
+  .matrix { 
+    text-align: center;
+  }
 }
 .main {
   display: block;
@@ -72,7 +73,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.task-list__input, .main__input{
+.task-list__input, .main__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
