@@ -32,7 +32,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.main__input, .task-list__label, .task-list__input {
+.main__input, 
+.task-list__label, 
+.task-list__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,14 +46,22 @@
   margin: 0;
   padding: 0px;
 }
-.task-list__item{
+.task-list__item {
   list-style: none;
   max-height: 32px;
 }
-.task-list__button__edit, .task-list__button__delete, .task-list__checkbox, .task-list__input, .main__input, .main__button{
+.task-list__button__edit, 
+.task-list__button__delete, 
+.task-list__checkbox, 
+.task-list__input,
+.main__input,
+.main__button {
   outline: none;
 }
-.task-list__button__edit, .task-list__button__delete, .main__input, .main__button {
+.task-list__button__edit, 
+.task-list__button__delete, 
+.main__input, 
+.main__button {
   background: none;
   border: 0px;
   color: #888;
@@ -60,7 +70,9 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task-list__button__edit:hover, .task-list__button__delete:hover, .main__button:hover {
+.task-list__button__edit:hover,
+.task-list__button__delete:hover,
+.main__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -73,7 +85,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.task-list__input, .main__input {
+.task-list__input,
+.main__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
