@@ -35,7 +35,7 @@
 .main__input, .task-list__label, .task-list__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main__wrapper {
   display: flex;
@@ -122,7 +122,7 @@
   width: 226px;
 }
 .task-list__item > .task-list__input {
-  width: 226px
+  width: 226px;
 }
 .task-list__image {
   height: 2em;
@@ -141,12 +141,12 @@
 
 /* Edit Task */
 .task-list__input {
-  display: none
+  display: none;
 }
 
 .item__edit-mode .task-list__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .item__edit-mode .task-list__label {
