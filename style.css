@@ -52,16 +52,16 @@
   list-style: none;
   max-height: 32px;
 }
-.task-list__button__edit, 
-.task-list__button__delete, 
+.task-list__edit-button, 
+.task-list__delete-button, 
 .task-list__checkbox, 
 .task-list__input,
 .main__input,
 .main__button {
   outline: none;
 }
-.task-list__button__edit, 
-.task-list__button__delete, 
+.task-list__edit-button, 
+.task-list__delete-button, 
 .main__input, 
 .main__button {
   background: none;
@@ -72,8 +72,8 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task-list__button__edit:hover,
-.task-list__button__delete:hover,
+.task-list__edit-button:hover,
+.task-list__delete-button:hover,
 .main__button:hover {
   color: #3a3a3a;
 }
@@ -159,11 +159,11 @@
   display: none;
 }
 
-.item__edit-mode .task-list__input {
+.task-list__item__edit-mode .task-list__input {
   display: inline-block;
   width: 224px;
 }
 
-.item__edit-mode .task-list__label {
+.task-list__item__edit-mode .task-list__label {
   display: none;
 }
