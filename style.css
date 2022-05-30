@@ -1,9 +1,11 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .matrix {
   width: 500px;
   max-height: 269px;
@@ -11,17 +13,21 @@
   display: block;
   text-align: right;
 }
+
 .matrix__image {
   width: 100%;
 }
+
 .matrix__link {
   margin-top: 0px;
   font-family: fantasy, cursive;
 }
+
 .main__section {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
 @media (max-width: 768px) {
 
   .matrix { 
@@ -34,6 +40,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .main__input, 
 .task-list__label, 
 .task-list__input {
@@ -41,17 +48,21 @@
   display: inline-block;
   flex-grow: 1;
 }
+
 .main__wrapper {
   display: flex;
 }
+
 .task-list {
   margin: 0;
   padding: 0px;
 }
+
 .task-list__item {
   list-style: none;
   max-height: 32px;
 }
+
 .task-list__edit-button, 
 .task-list__delete-button, 
 .task-list__checkbox, 
@@ -60,6 +71,7 @@
 .main__button {
   outline: none;
 }
+
 .task-list__edit-button, 
 .task-list__delete-button, 
 .main__input, 
@@ -72,12 +84,15 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .task-list__edit-button:hover,
 .task-list__delete-button:hover,
 .main__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .main__header {
   color: #333;
   font-weight: 700;
@@ -87,6 +102,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-list__input,
 .main__input {
   margin: 0;
@@ -100,21 +116,25 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-list__input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .main__header:first-child {
   display: block;
   margin: 0 0 20px;
 }
+
 .main__input {
   width: 318px;
   height: 19px;
 }
 
 /* Task list */
+
 .task-list__item {
   overflow: hidden;
   padding: 20px 0;
@@ -123,6 +143,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task-list__item > * {
   vertical-align: middle;
 }
@@ -130,31 +151,37 @@
 .task-list__item > .task-list__checkbox {
   margin: 0 10px;
 }
+
 .task-list__item > .task-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__item > .task-list__input {
   width: 226px;
 }
+
 .task-list__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task-list__image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 #task-list__completed .task-list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .task-list__input {
   display: none;
 }
