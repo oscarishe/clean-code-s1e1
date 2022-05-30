@@ -159,11 +159,11 @@
   display: none;
 }
 
-.task-list__item__edit-mode .task-list__input {
+.task-list__edit-mode .task-list__input {
   display: inline-block;
   width: 224px;
 }
 
-.task-list__item__edit-mode .task-list__label {
+.task-list__edit-mode .task-list__label {
   display: none;
 }
