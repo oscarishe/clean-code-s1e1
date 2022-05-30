@@ -187,11 +187,11 @@
   display: none;
 }
 
-.task-list__edit-mode .task-list__input {
+.edit-mode .task-list__input {
   display: inline-block;
   width: 224px;
 }
 
-.task-list__edit-mode .task-list__label {
+.edit-mode .task-list__label {
   display: none;
 }
