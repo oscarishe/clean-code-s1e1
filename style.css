@@ -75,7 +75,6 @@
 
 .task-list__edit-button, 
 .task-list__delete-button, 
-.main__input, 
 .main__button {
   background: none;
   border: 0px;
@@ -118,7 +117,8 @@
   color: #888;
 }
 
-.task-list__input:focus {
+.task-list__input:focus,
+.main__input:focus {
   color: #333;
 }
 
